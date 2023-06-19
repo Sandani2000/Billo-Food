@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 255, 243);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9;     */
+}
+
+.main #icon{
+    font-size: 40px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+    margin-bottom: 100px;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    text-align: left;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+.class2{
+    display: block;
+    align-items: center;
+    width: 70%;
+    
+}
+
+.container #rowFlex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container .in-box{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    width: 100%;
+    margin: 30px 10px;
+}
+
+.container .in-box .blank{
+    width: 30px;
+}
+.container .in-box .row1{
+    width: 80%;
+}
+
+.container .in-box .row2{
+    margin-bottom: 30px;
+}
+
+
+.div-input{
+    padding: 10px 5px;
+}
+
+.container{
+    max-height: fit-content;
+    max-width: 100%;
+    width:40%;
+    margin: auto;
+    background: rgba(241, 241, 241, 0.95);
+    border-radius: 12px;
+    border: 2px solid rgb(137, 137, 137);
+    padding: 20px 40px;
+    box-shadow: 0 8px 10px rgb(26, 26, 24);
+    
+}
+
+.container h1{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+}
+
+.container form{
+    padding: 20px 0px;
+}
+
+.in-box label{
+    width: 200px;
+}
+
+.in-box{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.in-box input{
+    width: 100%;
+    margin-top: 3px;
+    border: 2px solid rgb(85, 85, 82);
+    padding: 6px 40px;
+    border-radius: 5px;
+    outline: none;    
+}
+
+.in-box input[type = text]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.in-box input[type = password]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.in-box input[type = email]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.in-box input[type = checkbox]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.field input[type = submit]{
+    position: relative;
+    left: 30%;
+    width: 40%;
+    padding: 10px 10px;
+    margin-top: 10px;
+    
+    border-radius: 5px;
+    background-color:rgb(46, 155, 51);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.field input[type = submit]:hover{
+    background-color: rgba(36, 203, 122, 0.506);
+}

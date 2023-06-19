@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url("../Images/25.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9;     */
+}
+
+.container{
+    
+    max-width: 500px;
+    width:100%;
+    background: rgba(230, 246, 179, 0.95);
+    border-radius: 12px;
+    border: 2px solid rgb(137, 137, 137);
+    padding: 20px 40px;
+    box-shadow: 0 8px 10px rgb(26, 26, 24);
+    
+}
+
+.container h1{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+}
+
+.container form{
+    padding: 20px 0px;
+}
+
+.in-box{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+.in-box input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px solid rgb(85, 85, 82);
+    padding: 6px 40px;
+    border-radius: 5px;
+    outline: none;    
+}
+
+.in-box i{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+/* #remember{
+    margin-top: 20px;
+} */
+
+#flex{
+    display: flex;
+}
+
+#flex1 {
+    margin-right: 10px;
+}
+
+#flex2{
+    margin-left: 165px;
+}
+
+#text2{
+    text-align: center;
+}
+
+.field{
+    /* padding-top: 10px; */
+    font-size: 14px;
+}
+
+.in-box input[type = text]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.in-box input[type = password]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.in-box input[type = email]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.in-box input[type = checkbox]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+    transition: 3ms;
+}
+
+.field input[type = submit]{
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color:rgb(46, 155, 51);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.field input[type = submit]:hover{
+    background-color: rgba(36, 203, 122, 0.506);
+}
+
+a:link{
+    color:green;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+    color:dodgerblue;
+}
